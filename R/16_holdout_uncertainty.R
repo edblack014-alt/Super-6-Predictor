@@ -125,55 +125,7 @@ compare_holdout_models <- function(
     )
   )
 }
-# Execute Comparisons ----
-set.seed(42)
 
-holdout_uncertainty <- bind_rows(
-  
-  compare_holdout_models(
-    candidate = "M10B",
-    benchmark = "M2"
-  ),
-  
-  compare_holdout_models(
-    candidate = "M10B",
-    benchmark = "M10A"
-  ),
-  
-  compare_holdout_models(
-    candidate = "M7A",
-    benchmark = "M10B"
-  )
-)
-
-print(
-  holdout_uncertainty,
-  width = Inf
-)
-set.seed(42)
-
-holdout_uncertainty <- bind_rows(
-  
-  compare_holdout_models(
-    candidate = "M10B",
-    benchmark = "M2"
-  ),
-  
-  compare_holdout_models(
-    candidate = "M10B",
-    benchmark = "M10A"
-  ),
-  
-  compare_holdout_models(
-    candidate = "M7A",
-    benchmark = "M10B"
-  )
-)
-
-print(
-  holdout_uncertainty,
-  width = Inf
-)
 # Visualise Uncertainty ----
 holdout_uncertainty %>%
   mutate(
