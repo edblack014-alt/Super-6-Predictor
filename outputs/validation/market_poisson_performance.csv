@@ -1,0 +1,2 @@
+matches,correct_scorelines,exact_accuracy,log_loss,expected_home_mae,expected_away_mae,average_market_fit_error,max_market_fit_error
+594,59,9.932659932659933,2.9855629170527673,0.9963435233383464,0.9095721305489939,0.010978337481790596,0.03237708634825043

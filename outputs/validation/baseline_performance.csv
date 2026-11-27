@@ -1,0 +1,4 @@
+model,matches,correct_scorelines,accuracy
+prediction_m2,594,73,12.289562289562289
+prediction_m1,594,66,11.11111111111111
+prediction_m0,594,42,7.07070707070707
