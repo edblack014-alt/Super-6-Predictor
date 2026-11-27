@@ -1,4 +1,4 @@
-# Super 6 Predictor
+f# Super 6 Predictor
 
 **Football forecasting, statistical modelling and interactive data storytelling in R.**
 
@@ -210,7 +210,7 @@ R and RStudio are recommended. Install the packages required by the modelling pi
 
 ```r
 install.packages(c(
-  "tidyverse", "lubridate", "here",
+  "tidyverse", "lubridate", "here", "janitor"
   "shiny", "bslib", "plotly", "DT", "jsonlite"
 ))
 ```
