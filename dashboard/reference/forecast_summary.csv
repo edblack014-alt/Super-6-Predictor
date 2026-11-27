@@ -1,0 +1,6 @@
+match_id,date,home_team,away_team,predicted_scoreline,confidence,expected_home_goals,expected_away_goals,p_home,p_draw,p_away,top3_probability,top6_probability,model,prediction_cutoff,generated_at
+1,2026-11-27,Nott'm Forest,Chelsea,1-1,0.114,1.42,1.47,0.370,0.244,0.387,0.279,0.500,M10A,2026-11-23,2026-11-26 17:03:40
+2,2026-11-28,Man United,Brentford,1-1,0.101,1.74,1.45,0.447,0.224,0.330,0.261,0.460,M10A,2026-11-23,2026-11-26 17:03:40
+3,2026-11-29,Everton,Liverpool,1-1,0.123,1.09,1.46,0.285,0.261,0.454,0.325,0.572,M10A,2026-11-23,2026-11-26 17:03:40
+4,2026-11-29,Sunderland,Tottenham,1-1,0.129,1.05,1.17,0.329,0.288,0.382,0.372,0.631,M10A,2026-11-23,2026-11-26 17:03:40
+5,2026-11-29,Arsenal,Man City,1-0,0.127,1.56,0.962,0.513,0.255,0.232,0.345,0.596,M10A,2026-11-23,2026-11-26 17:03:40

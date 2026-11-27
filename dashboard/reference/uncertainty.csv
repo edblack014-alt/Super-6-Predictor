@@ -1,0 +1,4 @@
+candidate,benchmark,loss_gain,loss_lower,loss_upper,accuracy_gain,accuracy_lower,accuracy_upper
+M10B,M2,0.0744,0.0260,0.125,1.01,-2.01,4.10
+M10B,M10A,0.00968,0.000606,0.0177,1.26,-0.506,3.11
+M7A,M10B,-0.0165,-0.0456,0.00984,1.01,-1.90,3.76
